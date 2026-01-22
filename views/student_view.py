@@ -11,3 +11,7 @@ class StudentView:
 
     def get_input(self, prompt):
         return input(prompt)
+
+    def display_students(self, students):
+        for s in students:
+            print(s)
