@@ -8,3 +8,6 @@ class StudentView:
         print("4. Delete Student")
         print("5. Show Statistics")
         print("6. Exit")
+
+    def get_input(self, prompt):
+        return input(prompt)
