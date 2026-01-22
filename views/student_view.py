@@ -15,3 +15,6 @@ class StudentView:
     def display_students(self, students):
         for s in students:
             print(s)
+
+    def show_message(self, message):
+        print(message)
