@@ -9,3 +9,8 @@ def load_data():
         return []
     with open(FILE_NAME, "r") as f:
         return json.load(f)
+
+
+def save_data(data):
+    with open(FILE_NAME, "w") as f:
+        json.dump(data, f, indent=2)
