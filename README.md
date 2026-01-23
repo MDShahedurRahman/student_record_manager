@@ -1,2 +1,4 @@
-# student_record_manager
-This is a command-line application to manage student records (add, view, update, delete, statistics). It uses Model–View–Controller (MVC) separation so each responsibility is clean and commit-friendly.
+# Student Record Manager (CLI) — MVC Python Project
+
+A clean, modular **command-line Student Record Management System** built using **MVC (Model–View–Controller) architecture**.  
+This project is designed to demonstrate **software engineering best practices, clean architecture, and professional Git commit workflow**.
