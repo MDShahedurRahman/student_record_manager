@@ -9,3 +9,21 @@ class StudentController:
     def __init__(self):
         self.view = StudentView()
         self.service = StudentService()
+
+    def run(self):
+        while True:
+            self.view.show_menu()
+            choice = self.view.get_input("Choose an option: ")
+
+            if choice == "1":
+                self.add_student()
+            elif choice == "2":
+                self.view_students()
+            elif choice == "3":
+                self.update_student()
+            elif choice == "4":
+                self.delete_student()
+            elif choice == "5":
+                self.show_statistics()
+            elif choice == "6":
+                break
