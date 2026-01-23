@@ -115,3 +115,22 @@ Each commit focuses on **one file and one method**, creating a professional deve
 40. project-wide – formatting & cleanup  
 
 ---
+
+## How to Run
+
+```bash
+python main.py
+```
+
+---
+
+## Learning Outcomes
+
+- MVC architecture
+- File-based persistence
+- Clean service-layer design
+- Professional Git workflow
+- CLI application design
+- Python modular programming
+
+---
