@@ -83,3 +83,8 @@ Each commit focuses on **one file and one method**, creating a professional deve
 16. services/student_service.py – add delete_student()  
 17. services/student_service.py – add update_student()  
 18. services/student_service.py – add calculate_average_age()  
+
+### Utility Layer
+19. utils/validators.py – create validators module  
+20. utils/validators.py – add is_valid_age()  
+21. utils/validators.py – add is_valid_grade() 
