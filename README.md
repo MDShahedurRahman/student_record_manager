@@ -134,3 +134,20 @@ python main.py
 - Python modular programming
 
 ---
+
+## Ideal Use Cases
+
+- Python portfolio project
+- GitHub commit history showcase
+- Software engineering practice
+- Data engineering pipeline foundations
+- Backend architecture learning
+
+---
+
+## Author
+
+Md Shahedur Rahman  
+Software Developer | Data Engineering | Backend Systems  
+
+---
