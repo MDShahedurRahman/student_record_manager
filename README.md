@@ -44,3 +44,12 @@ student_record_manager/
 - MVC architecture for clean separation of concerns
 
 ---
+
+## Why MVC Architecture?
+
+- Clean separation of responsibilities
+- Highly maintainable code
+- Scalable project design
+- Industry-standard backend structure
+
+---
