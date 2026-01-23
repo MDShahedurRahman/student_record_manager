@@ -74,4 +74,12 @@ Each commit focuses on **one file and one method**, creating a professional deve
 ### Storage Layer
 10. storage/file_storage.py – create storage module  
 11. storage/file_storage.py – implement load_data()  
-12. storage/file_storage.py – implement save_data() 
+12. storage/file_storage.py – implement save_data()  
+
+### Service Layer
+13. services/student_service.py – create StudentService class  
+14. services/student_service.py – add get_all_students()  
+15. services/student_service.py – add add_student()  
+16. services/student_service.py – add delete_student()  
+17. services/student_service.py – add update_student()  
+18. services/student_service.py – add calculate_average_age()  
