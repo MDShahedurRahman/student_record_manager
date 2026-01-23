@@ -93,3 +93,12 @@ Each commit focuses on **one file and one method**, creating a professional deve
 22. controllers/student_controller.py – create StudentController class  
 23. controllers/student_controller.py – implement __init__()  
 24. controllers/student_controller.py – add run() loop  
+
+### Controller Features
+25. controllers/student_controller.py – add add_student()  
+26. controllers/student_controller.py – input validation  
+27. controllers/student_controller.py – connect service layer  
+28. controllers/student_controller.py – add view_students()  
+29. controllers/student_controller.py – add update_student()  
+30. controllers/student_controller.py – add delete_student()  
+31. controllers/student_controller.py – add show_statistics()  
