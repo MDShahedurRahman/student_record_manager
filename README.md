@@ -70,3 +70,8 @@ Each commit focuses on **one file and one method**, creating a professional deve
 7. views/student_view.py – add get_input() method  
 8. views/student_view.py – add display_students() method  
 9. views/student_view.py – add show_message() method  
+
+### Storage Layer
+10. storage/file_storage.py – create storage module  
+11. storage/file_storage.py – implement load_data()  
+12. storage/file_storage.py – implement save_data() 
