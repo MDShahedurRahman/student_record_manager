@@ -51,3 +51,8 @@ class StudentController:
         name = self.view.get_input("New Name: ")
         self.service.update_student(sid, {"name": name})
         self.view.show_message("Student updated")
+
+    def delete_student(self):
+        sid = self.view.get_input("Student ID to delete: ")
+        self.service.delete_student(sid)
+        self.view.show_message("Student deleted")
