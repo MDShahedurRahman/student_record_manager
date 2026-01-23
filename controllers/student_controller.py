@@ -27,3 +27,13 @@ class StudentController:
                 self.show_statistics()
             elif choice == "6":
                 break
+
+    def add_student(self):
+        sid = self.view.get_input("ID: ")
+        name = self.view.get_input("Name: ")
+        age = self.view.get_input("Age: ")
+        grade = self.view.get_input("Grade: ")
+
+        student = Student(sid, name, int(age), grade)
+        self.service.add_student(student)
+        self.view.show_message("Student added")
