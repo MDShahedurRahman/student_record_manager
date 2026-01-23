@@ -23,3 +23,9 @@ class StudentService:
             if s["student_id"] == student_id:
                 s.update(updated_data)
         save_data(students)
+
+    def calculate_average_age(self):
+        students = load_data()
+        if not students:
+            return 0
+        return sum(s["age"] for s in students) / len(students)
