@@ -11,3 +11,8 @@ class StudentService:
         students = load_data()
         students.append(student.to_dict())
         save_data(students)
+
+    def delete_student(self, student_id):
+        students = load_data()
+        students = [s for s in students if s["student_id"] != student_id]
+        save_data(students)
