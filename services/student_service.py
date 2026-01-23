@@ -16,3 +16,10 @@ class StudentService:
         students = load_data()
         students = [s for s in students if s["student_id"] != student_id]
         save_data(students)
+
+    def update_student(self, student_id, updated_data):
+        students = load_data()
+        for s in students:
+            if s["student_id"] == student_id:
+                s.update(updated_data)
+        save_data(students)
