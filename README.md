@@ -32,3 +32,15 @@ student_record_manager/
 ```
 
 ---
+
+## Features
+
+- Add student records
+- View all students
+- Update student data
+- Delete student records
+- Calculate class statistics (average age)
+- File-based persistent storage
+- MVC architecture for clean separation of concerns
+
+---
