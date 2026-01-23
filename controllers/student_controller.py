@@ -41,3 +41,7 @@ class StudentController:
         student = Student(sid, name, int(age), grade)
         self.service.add_student(student)
         self.view.show_message("Student added")
+
+    def view_students(self):
+        students = self.service.get_all_students()
+        self.view.display_students(students)
