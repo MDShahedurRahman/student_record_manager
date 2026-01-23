@@ -45,3 +45,9 @@ class StudentController:
     def view_students(self):
         students = self.service.get_all_students()
         self.view.display_students(students)
+
+    def update_student(self):
+        sid = self.view.get_input("Student ID to update: ")
+        name = self.view.get_input("New Name: ")
+        self.service.update_student(sid, {"name": name})
+        self.view.show_message("Student updated")
