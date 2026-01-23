@@ -63,3 +63,10 @@ Each commit focuses on **one file and one method**, creating a professional deve
 2. main.py – add main() function  
 3. models/student.py – create Student class  
 4. models/student.py – implement to_dict() method  
+
+### View Layer
+5. views/student_view.py – create StudentView class  
+6. views/student_view.py – add show_menu() method  
+7. views/student_view.py – add get_input() method  
+8. views/student_view.py – add display_students() method  
+9. views/student_view.py – add show_message() method  
