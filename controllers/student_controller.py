@@ -56,3 +56,7 @@ class StudentController:
         sid = self.view.get_input("Student ID to delete: ")
         self.service.delete_student(sid)
         self.view.show_message("Student deleted")
+
+    def show_statistics(self):
+        avg_age = self.service.calculate_average_age()
+        self.view.show_message(f"Average Age: {avg_age:.2f}")
