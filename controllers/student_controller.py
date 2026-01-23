@@ -5,3 +5,7 @@ from utils.validators import is_valid_age, is_valid_grade
 
 
 class StudentController:
+
+    def __init__(self):
+        self.view = StudentView()
+        self.service = StudentService()
