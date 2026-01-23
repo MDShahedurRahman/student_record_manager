@@ -87,4 +87,9 @@ Each commit focuses on **one file and one method**, creating a professional deve
 ### Utility Layer
 19. utils/validators.py – create validators module  
 20. utils/validators.py – add is_valid_age()  
-21. utils/validators.py – add is_valid_grade() 
+21. utils/validators.py – add is_valid_grade()  
+
+### Controller Foundation
+22. controllers/student_controller.py – create StudentController class  
+23. controllers/student_controller.py – implement __init__()  
+24. controllers/student_controller.py – add run() loop  
