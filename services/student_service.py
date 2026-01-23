@@ -3,3 +3,6 @@ from models.student import Student
 
 
 class StudentService:
+
+    def get_all_students(self):
+        return load_data()
