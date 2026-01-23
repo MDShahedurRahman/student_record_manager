@@ -53,3 +53,13 @@ student_record_manager/
 - Industry-standard backend structure
 
 ---
+
+## Git Commit Strategy (40 Commits)
+
+Each commit focuses on **one file and one method**, creating a professional development timeline.
+
+### Setup
+1. main.py – initialize application entry point  
+2. main.py – add main() function  
+3. models/student.py – create Student class  
+4. models/student.py – implement to_dict() method  
