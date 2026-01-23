@@ -6,3 +6,8 @@ class StudentService:
 
     def get_all_students(self):
         return load_data()
+
+    def add_student(self, student):
+        students = load_data()
+        students.append(student.to_dict())
+        save_data(students)
