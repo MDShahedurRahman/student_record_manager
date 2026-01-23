@@ -34,6 +34,10 @@ class StudentController:
         age = self.view.get_input("Age: ")
         grade = self.view.get_input("Grade: ")
 
+        if not is_valid_age(age) or not is_valid_grade(grade):
+            self.view.show_message("Invalid input")
+            return
+
         student = Student(sid, name, int(age), grade)
         self.service.add_student(student)
         self.view.show_message("Student added")
